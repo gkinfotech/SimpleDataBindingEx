@@ -62,30 +62,4 @@ mainBinding = DataBindingUtil.setContentView(this,R.layout.activity_main);
         mainBinding.setStudent(getCurrentStudent());
         
 5.we can pass values to the layout directly using 
-<TextView
-        android:id="@+id/tv_sr_name"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@{student.name}"
-        android:textStyle="bold"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_sr_title" />
-        
-  <TextView
-        android:id="@+id/tv_sr_email"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="@{student.email}"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_sr_name" />
-
-
+<TextView> android:text="@{student.name}" </TextView>
