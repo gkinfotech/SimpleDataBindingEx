@@ -30,12 +30,13 @@ android {
     }
     
 3.add layout tag on xml files 
+<!-
 <layout>
     <data>
         <variable
             name="student"
             type="com.gokul.tut.simpledatabindingex.Student" />
-    </data>
+    </data>!!>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
