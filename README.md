@@ -30,6 +30,8 @@ android {
     }
     
 3.add layout tag on xml files 
+
+
 <!-
 <layout>
     <data>
